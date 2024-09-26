@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a class="header__logo" href="#">
+                        <img class="header__logo-img" src="images/header-logo.svg" alt="">
+                    </a>
+                    <nav class="header__nav">
+                        <button class="header__nav-btn --active" id="indexPage" disabled>Главная</button>
+                        <button class="header__nav-btn" id="servicePage">Услуги</button>
+                        <button class="header__nav-btn" id="worksPage">Наши работы</button>
+                        <button class="header__nav-btn" id="contactsPage">Контакты</button>
+                    </nav>
+                    <button class="header__callback btn">Заказать звонок</button>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="present">
+                <div class="container">
+                    <div class="present__inner">
+                        <div class="present__info">
+                            <h3 class="present__info-title">Студия дизайна<span>полного цикла</span></h3>
+                            <p class="present__info-subtitle">От дизайна визиток до дизайна сайтов</p>
+                            <div class="present__info-list">
+                                <p class="present__info-item">Комплексные решения</p>
+                                <p class="present__info-item">Логотипы</p>
+                                <p class="present__info-item">Дизайн</p>
+                            </div>
+                        </div>
+                        <img class="present__img" src="images/present-img.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="benefits">
+                <div class="container">
+                    <div class="benefits__inner">
+                        <h4 class="benefits__title">Мы знаем толк в дизайне!</h4>
+                        <div class="benefits__list">
+                            <div class="benefits__list-item">
+                                <p class="benefits__list-text"><span class="benefits__list-text__span">6 лет</span>В
+                                    сфере рекламы</p>
+                            </div>
+                            <div class="benefits__list-item">
+                                <p class="benefits__list-text"><span class="benefits__list-text__span">более
+                                        100</span>Наших постоянных клиентов</p>
+                            </div>
+                            <div class="benefits__list-item">
+                                <p class="benefits__list-text"><span
+                                        class="benefits__list-text__span">+20%</span>Конверсия продаж</p>
+                            </div>
+                            <div class="benefits__list-item">
+                                <p class="benefits__list-text"><span class="benefits__list-text__span">-70%</span>Ошибок
+                                    менеджеров</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="service">
+                <div class="container">
+                    <div class="service__inner">
+                        <h4 class="service__title">Наши услуги</h4>
+                        <div class="service__list">
+                            <div class="service__list-item">
+                                <div class="service__list-info">
+                                    <p class="service__list-info__title">Рекламные материалы</p>
+                                    <div class="servise__list-info__items">
+                                        <p class="servise__list-info__item">Верстка макетов</p>
+                                        <p class="servise__list-info__item">Флаеры</p>
+                                        <p class="servise__list-info__item">Визитки</p>
+                                        <p class="servise__list-info__item">Брошюры</p>
+                                        <p class="servise__list-info__item">Листовки</p>
+                                    </div>
+                                    <p class="service__list-info__price">от<span>2000 руб.</span></p>
+                                </div>
+                                <a class="service__list-btn btn" href="#">Подробнее</a>
+                            </div>
+                            <div class="service__list-item">
+                                <div class="service__list-info">
+                                    <p class="service__list-info__title">бренд дизайн</p>
+                                    <div class="servise__list-info__items">
+                                        <p class="servise__list-info__item">Логотипы</p>
+                                        <p class="servise__list-info__item">Фирменный стиль</p>
+                                        <p class="servise__list-info__item">Айдентика</p>
+                                        <p class="servise__list-info__item">Концепция бренда</p>
+                                        <p class="servise__list-info__item">Гайдлайн</p>
+                                    </div>
+                                    <p class="service__list-info__price">от<span>3000 руб.</span></p>
+                                </div>
+                                <a class="service__list-btn btn" href="#">Подробнее</a>
+                            </div>
+                            <div class="service__list-item">
+                                <div class="service__list-info">
+                                    <p class="service__list-info__title">дизайн вывесок и рекламы</p>
+                                    <div class="servise__list-info__items">
+                                        <p class="servise__list-info__item">Дизайн вывесок</p>
+                                        <p class="servise__list-info__item">Фотопривязки</p>
+                                        <p class="servise__list-info__item">Роллапы</p>
+                                    </div>
+                                    <p class="service__list-info__price">от<span>3000 руб.</span></p>
+                                </div>
+                                <a class="service__list-btn btn" href="#">Подробнее</a>
+                            </div>
+                            <div class="service__list-item">
+                                <div class="service__list-info">
+                                    <p class="service__list-info__title">Digital Дизайн</p>
+                                    <div class="servise__list-info__items">
+                                        <p class="servise__list-info__item">WEB дизайн</p>
+                                        <p class="servise__list-info__item">Креативы для рекламы</p>
+                                        <p class="servise__list-info__item">Презентации</p>
+                                    </div>
+                                    <p class="service__list-info__price">от<span>5000 руб.</span></p>
+                                </div>
+                                <a class="service__list-btn btn" href="#">Подробнее</a>
+                            </div>
+                            <div class="service__list-item">
+                                <div class="service__list-info">
+                                    <p class="service__list-info__title">Smm</p>
+                                    <div class="servise__list-info__items">
+                                        <p class="servise__list-info__item">Stories Instagram</p>
+                                        <p class="servise__list-info__item">Post instagram</p>
+                                        <p class="servise__list-info__item">Оформление аккаунта</p>
+                                        <p class="servise__list-info__item">Рекламные креативы</p>
+                                        <p class="servise__list-info__item">Оформление группы</p>
+                                    </div>
+                                    <p class="service__list-info__price">от<span>1500 руб.</span></p>
+                                </div>
+                                <a class="service__list-btn btn" href="#">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="callback">
+                <div class="container">
+                    <div class="callback__inner">
+                        <h4 class="callback__title">заказать Консультацию специалиста</h4>
+                        <form class="callback__form" action="">
+                            <p class="callback__form-info">Заполните форму и мы свяжемся с вами в ближайшее время!</p>
+                            <input class="callback__form-name" type="text" placeholder="Ваше имя" required>
+                            <input class="callback__form-phone" type="tel" placeholder="Номер вашего телефона" required>
+                            <textarea class="callback__form-text" placeholder="Ваш вопрос"></textarea>
+                            <div class="callback__form-checkbox">
+                                <input class="callback__form-checkbox__box" type="checkbox" id="callback-checkbox"
+                                    required>
+                                <label class="callback__form-checkbox__text" for="callback-checkbox">Я согласен с
+                                    условиями обработки персональных
+                                    данных</label>
+                            </div>
+                            <button class="callback__form-btn btn">Отправить</button>
+                        </form>
+                        <img class="callback__img" src="images/callback-img.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="works">
+                <div class="container">
+                    <div class="works__inner">
+                        <h4 class="works__title">Наши работы</h4>
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="swiper-slide-top">
+                                        <div class="swiper-slide-top-image">
+                                            <img class="swiper-slide-top-img" src="images/swiper-logo-1.svg" alt="">
+                                        </div>
+                                        <p class="swiper-slide-top-text">Самая крупная в Финляндии компания по обработке
+                                            камня и крупнейший в мире производитель теплоаккумулирующих печей каминов
+                                            текст пример</p>
+                                    </div>
+                                    <div class="swiper-slide-middle">
+                                        <p class="swiper-slide-middle-title">Результат:</p>
+                                        <div class="swiper-slide-middle-list">
+                                            <p class="swiper-slide-middle-text"><span>+ 85,71%</span>увеличение
+                                                количества обращений с рекламы</p>
+                                            <p class="swiper-slide-middle-text"><span>+ 83,51%</span>увеличение
+                                                конверсии</p>
+                                            <p class="swiper-slide-middle-text"><span>- 50,51%</span>снижение стоимости
+                                                за обращение</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide-bottom">
+                                        <p class="swiper-slide-bottom-title">Системы:</p>
+                                        <div class="swiper-slide-bottom-images">
+                                            <img class="swiper-slide-bottom-img" src="images/swiper-sistems-1.svg"
+                                                alt="">
+                                            <img class="swiper-slide-bottom-img" src="images/swiper-sistems-2.svg"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper-slide-top">
+                                        <div class="swiper-slide-top-image">
+                                            <img class="swiper-slide-top-img" src="images/swiper-logo-2.svg" alt="">
+                                        </div>
+                                        <p class="swiper-slide-top-text">Самая крупная в Финляндии компания по обработке
+                                            камня и крупнейший в мире производитель теплоаккумулирующих печей каминов
+                                            текст пример</p>
+                                    </div>
+                                    <div class="swiper-slide-middle">
+                                        <p class="swiper-slide-middle-title">Результат:</p>
+                                        <div class="swiper-slide-middle-list">
+                                            <p class="swiper-slide-middle-text"><span>+ 85,71%</span>увеличение
+                                                количества обращений с рекламы</p>
+                                            <p class="swiper-slide-middle-text"><span>+ 83,51%</span>увеличение
+                                                конверсии</p>
+                                            <p class="swiper-slide-middle-text"><span>- 50,51%</span>снижение стоимости
+                                                за обращение</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide-bottom">
+                                        <p class="swiper-slide-bottom-title">Системы:</p>
+                                        <div class="swiper-slide-bottom-images">
+                                            <img class="swiper-slide-bottom-img" src="images/swiper-sistems-1.svg"
+                                                alt="">
+                                            <img class="swiper-slide-bottom-img" src="images/swiper-sistems-2.svg"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper-slide-top">
+                                        <div class="swiper-slide-top-image">
+                                            <img class="swiper-slide-top-img" src="images/swiper-logo-1.svg" alt="">
+                                        </div>
+                                        <p class="swiper-slide-top-text">Самая крупная в Финляндии компания по обработке
+                                            камня и крупнейший в мире производитель теплоаккумулирующих печей каминов
+                                            текст пример</p>
+                                    </div>
+                                    <div class="swiper-slide-middle">
+                                        <p class="swiper-slide-middle-title">Результат:</p>
+                                        <div class="swiper-slide-middle-list">
+                                            <p class="swiper-slide-middle-text"><span>+ 85,71%</span>увеличение
+                                                количества обращений с рекламы</p>
+                                            <p class="swiper-slide-middle-text"><span>+ 83,51%</span>увеличение
+                                                конверсии</p>
+                                            <p class="swiper-slide-middle-text"><span>- 50,51%</span>снижение стоимости
+                                                за обращение</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide-bottom">
+                                        <p class="swiper-slide-bottom-title">Системы:</p>
+                                        <div class="swiper-slide-bottom-images">
+                                            <img class="swiper-slide-bottom-img" src="images/swiper-sistems-1.svg"
+                                                alt="">
+                                            <img class="swiper-slide-bottom-img" src="images/swiper-sistems-2.svg"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper-slide-top">
+                                        <div class="swiper-slide-top-image">
+                                            <img class="swiper-slide-top-img" src="images/swiper-logo-2.svg" alt="">
+                                        </div>
+                                        <p class="swiper-slide-top-text">Самая крупная в Финляндии компания по обработке
+                                            камня и крупнейший в мире производитель теплоаккумулирующих печей каминов
+                                            текст пример</p>
+                                    </div>
+                                    <div class="swiper-slide-middle">
+                                        <p class="swiper-slide-middle-title">Результат:</p>
+                                        <div class="swiper-slide-middle-list">
+                                            <p class="swiper-slide-middle-text"><span>+ 85,71%</span>увеличение
+                                                количества обращений с рекламы</p>
+                                            <p class="swiper-slide-middle-text"><span>+ 83,51%</span>увеличение
+                                                конверсии</p>
+                                            <p class="swiper-slide-middle-text"><span>- 50,51%</span>снижение стоимости
+                                                за обращение</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide-bottom">
+                                        <p class="swiper-slide-bottom-title">Системы:</p>
+                                        <div class="swiper-slide-bottom-images">
+                                            <img class="swiper-slide-bottom-img" src="images/swiper-sistems-1.svg"
+                                                alt="">
+                                            <img class="swiper-slide-bottom-img" src="images/swiper-sistems-2.svg"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="swiper-button-prev">
+                                <img class="swiper-button-img" src="images/arrow-prev.svg" alt="">
+                            </button>
+                            <button class="swiper-button-next">
+                                <img class="swiper-button-img" src="images/arrow-next.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <ul class="footer__list">
+                    <li class="footer__list-item">
+                        <a class="footer__list-link" href="#">
+                            <img class="footer__list-link__img" src="images/header-logo.svg" alt="">
+                        </a>
+                        <a class="footer__list-link" href="#">Политика конфиденциальности</a>
+                        <button class="footer__list-btn btn">Обратная связь</button>
+                    </li>
+                    <li class="footer__list-item">
+                        <p class="footer__list-title">Информация</p>
+                        <a class="footer__list-link" href="#">Главная</a>
+                        <a class="footer__list-link" href="#">Услуги</a>
+                        <a class="footer__list-link" href="#">Наши работы</a>
+                        <a class="footer__list-link" href="#">Контакты</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <p class="footer__list-title">Услуги</p>
+                        <a class="footer__list-link" href="#">Реклама в интернете</a>
+                        <a class="footer__list-link" href="#">Дизайн вывесок и рекламы</a>
+                        <a class="footer__list-link" href="#">Дизайн сайтов на Тильде</a>
+                        <a class="footer__list-link" href="#">СММ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__copyright">
+                <p class="footer__copyright-text">© 2021 Все права защиены</p>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
